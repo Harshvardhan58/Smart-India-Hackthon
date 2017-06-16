@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <title>SIH</title>
+        <link href="../css/style1.css" rel="stylesheet"/>
+        <link href= "../css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="../css/bootstrap-theme.min.css" rel="stylesheet"/>
+        <link href="../css/bootstrap-theme.min.css.map" rel="stylesheet"/>
+        <link href="../css/bootstrap.min.css.map" rel="stylesheet"/>
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+        <link rel="stylesheet" href="../css/w3.css"/>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar navbar-default" >
+                <a href="#" class="navbar-brand" style="color:black;" >AICTE</a>
+                <button class="btn btn-warning  pull-right navbar-btnp" style="margin-right:15px; margin-top:10px; ">Logout</button>
+                <div class="pull-right">
+                    <ul style="padding-top:10px; list-style:none;">
+                        <li style="padding-right:15px;" class=" navbar-ul fa fa-facebook fa-2x" aria-hidden="true"></li>
+                        <li style="padding-right:15px;" class="fa fa-google-plus fa-2x" aria-hidden="true"></li>
+                        <li style="padding-right:15px;" class="fa fa-twitter fa-2x" aria-hidden="true"></li>
+                    </ul>
+                    
+                </div>
+                
+            </div>
+         </div>
+        <div class="container">
+            
+                <div class="col-md-5 fixed" style="border-color:red; padding:0px;">
+                   
+                        <div class="col-md-10 well" style="background-color:#6666ff; border:1px solid green;" >
+                            <img src="../images/techno.jpg" class="img-circle  col-md-4 center-block" alt="clg-logo" width="100px" id="logo-img" style="padding-left:0px;"/>
+                            <h2 class="h2 col-md-9 text-center" id="clg-name" style="margin-top:30px; margin-left:-30px; padding-left:0px; padding-right:5px; line-height:150%; ">Techno India NJR</h2>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-md-10 ">
+                                <ul class="w3-ul w3-card-4">
+                                    <li class="w3-display-container w3-hover-shadow cat" id="c1" onclick="side(this);"><h2>All</h2></li>
+                                    <li class="w3-display-container w3-hover-shadow cat" id="c2" onclick="side(this);"><h2>Research</h2></li>
+                                    <li class="w3-display-container w3-hover-shadow cat" id="c3" onclick="side(this);"><h2>Workshop</h2></li>
+                                    <li class="w3-display-container w3-hover-shadow cat" id="c4" onclick="side(this);"><h2>Training</h2></li>
+                                    <li class="w3-display-container w3-hover-shadow cat" id="c5" onclick="side(this);"><h2>Seminar</h2></li>
+                                 </ul>    
+                            </div>
+                        </div>
+                
+                    </div>
+                    <div class="col-md-7" style="height:1000px;" > 
+                        <div class="row">
+                            <div class="col-md-11 w3-card w3-hover-shadow card"  style="height:500px; margin-top:20px;"></div>
+                            <div class="col-md-11 w3-card w3-hover-shadow card"  style="height:500px; margin-top:20px;"></div>
+                            <div class="col-md-11 w3-card w3-hover-shadow card"  style="height:500px; margin-top:20px;"></div>
+                            <div class="col-md-11 w3-card w3-hover-shadow card"  style="height:500px; margin-top:20px;"></div>
+                        </div>
+                        <button class="w3-button w3-teal w3-circle" type="button"  data-toggle="modal" data-target="#myModal" style=" height:50px;width:50px; position:fixed; right:80; bottom:80;">+</button>
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog modal-lg">
+
+                              <!-- Modal content-->
+                             <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Upload Post</h4>
+                                 </div>
+                                 <div class="modal-body">
+                                     <center> <div class="dropdown" >
+                                        <button class="btn btn-primary dropdown-toggle center-block" style="width: 40%; min-width:160px;" type="button" data-toggle="dropdown">Events
+                                        <span class="caret"></span></button>
+                                        <ul class="dropdown-menu "  style="width: 40%; text-align:center; margin-left:30%;">
+                                              <li class="cat" ><a href="#">Research Ongoing</a></li>
+                                              <li class="cat"><a href="#">Projects</a></li>
+                                              <li class="cat"<a href="#">Seminars</a></li>
+                                              <li class="cat"><a href="#">Workshops</a></li>
+                                        </ul>
+                                    </div></center>
+                                    <form>
+                                        <div class="form-group">
+                                          <label for="Heading"></label>
+                                          <input type="text" class="form-control" id="text" placeholder="Heading">
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="details"></label>
+                                          <textarea class="form-group " placeholder="Description" id="details"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="email"></label>
+                                          <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                        </div>
+                                        <button type="button"  data-toggle="modal" data-target="#myModal1" class="btn btn-success" >Insert picture</button>
+
+                                    </form>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+         <div class="modal fade" id="myModal1" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Insert Picture</h4>
+                </div>
+                <div class="modal-body" id="pic_upload">
+                  <form class="box" method="post" action="" enctype="multipart/form-data">
+                      <div class="box__input">
+                        <input class="box__file" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
+                        <label for="file"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label>
+                        <button class="box__button" type="submit">Upload</button>
+                      </div>
+                      <div class="box__uploading">Uploading&hellip;</div>
+                      <div class="box__success">Done!</div>
+                      <div class="box__error">Error! <span></span>.</div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+    </body>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/dashboard.js"></script>
+</html>

@@ -1,0 +1,18 @@
+#wrap{
+    min-height:400px;
+}
+.hr{
+    border-width:2px;
+    height: 1px;
+    /* Set the hr color */
+     border-style: solid;
+    border-color: grey; 
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+@media screen(min-width:1200px){
+    #clg-name{
+        margin:0px;
+        background-color: aqua;
+    }
+}

@@ -1,0 +1,80 @@
+.card{
+    overflow: hidden;
+}
+#details{
+    margin: 0px 0px 15px;
+    min-width: 858px;
+    max-width: 858px;
+    max-height: 255px;
+    min-height: 255px;
+}
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
+.box.has-advanced-upload {
+  background-color: white;
+  outline: 2px dashed black;
+  outline-offset: -10px;
+}
+.box.has-advanced-upload .box__dragndrop {
+  display: inline;
+}
+.cat:hover{
+    background-color:#9900ff;
+    cursor: pointer;
+}
+#pic_upload{
+    height:300px;
+}
+.box__input{
+    height:300px;
+}
+.box.is-dragover {
+  background-color: grey;
+}
+.box.is-uploading .box__input {
+  visibility: none;
+}
+.box.is-uploading .box__uploading {
+  display: block;
+}
+.img{
+  position: absolute;
+  margin: 0 auto;
+}
+.imgres{
+  max-width: 100%;
+}
+#butimage{
+  width: 40px;
+  height: 40px;
+  margin-top : 15px;
+}
+butimage{
+  width: 40px;
+  height: 40px;
+  margin-top : 15px;
+}
+.title{
+  margin-top: 0px;
+}
+
+.set{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+#details{
+    margin: 0px 0px 15px;
+  //  min-width: 858px;
+    //max-width: 858px;
+    max-height: 255px;
+    min-height: 255px;
+}
+body{
+    
+}
