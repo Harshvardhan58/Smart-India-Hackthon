@@ -1,7 +1,7 @@
-#Problem Statement
+Problem Statement
 ==================
 
-##Lack of information about Academic Activities in single platform
+Lack of information about Academic Activities in single platform
 ------------------------------------------------------------------------------------
 
 Teachers, students are encouraged to take up research and innovate. Current accreditation, ranking and grading norms emphasises research work and publications by both students and faculty. 
