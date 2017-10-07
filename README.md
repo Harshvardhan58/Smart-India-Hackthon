@@ -13,3 +13,13 @@ Contributions, Bug Reports, Feature Requests
 ---------------------------------------------------------
 
 This is an Open Source project and we would be happy to see contributors who report bugs and file feature requests submitting pull requests as well.
+
+### Screenshots of a sample Android app
+
+<p align="center">
+<img src="Screenshots/Screen1.png" height = "480" width="270"> <img src="Screenshots/Screen2.png" height = "480" width="270"> <img src="Screenshots/Screen3.png" height = "480" width="270">
+</p>
+
+<p align="center">
+<img src="Screenshots/Screen4.png" height = "480" width="270"> <img src="Screenshots/Screen5.png" height = "480" width="270"> <img src="Screenshots/Screen6.png" height = "480" width="270">
+</p>
